@@ -4,14 +4,17 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule, RoutingList } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+import { NgxQRCodeModule } from 'ngx-qrcode2';
+
 @NgModule({
   declarations: [
     AppComponent,
-    RoutingList
+    RoutingList,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgxQRCodeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
