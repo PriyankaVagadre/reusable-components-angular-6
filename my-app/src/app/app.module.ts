@@ -9,6 +9,7 @@ import { AppComponent } from './app.component';
 import { NgxQRCodeModule } from 'ngx-qrcode2';
 import { NgQRCodeReaderModule } from 'ng2-qrcode-reader';
 
+
 @NgModule({
   declarations: [
     AppComponent,
