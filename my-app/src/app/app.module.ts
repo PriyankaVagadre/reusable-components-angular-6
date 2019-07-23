@@ -8,12 +8,14 @@ import { AppComponent } from './app.component';
 
 import { NgxQRCodeModule } from 'ngx-qrcode2';
 import { NgQRCodeReaderModule } from 'ng2-qrcode-reader';
+import { CopyToClipboardComponent } from './copy-to-clipboard/copy-to-clipboard.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     RoutingList,
+    CopyToClipboardComponent,
   ],
   imports: [
     BrowserModule,
